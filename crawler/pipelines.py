@@ -8,4 +8,5 @@
 
 class CrawlerPipeline(object):
     def process_item(self, item, spider):
+    	print(item['raw_url'])
         return item
